@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h4 {
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.25em;
+}
+h5 {
+  margin: 0.25em;
+  text-align: left;
+  width: 20em;
+  margin-left: 1em;
+  font-family: 'Cabin', sans-serif;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.app-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+@media screen and (min-width: 900px) {
+  .assets-container{
+    flex-direction: column;
+  }
+}
