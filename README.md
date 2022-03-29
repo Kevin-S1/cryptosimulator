@@ -6,7 +6,7 @@ Simulates buying and selling BTC at current prices (fetched from external API) t
 
 Steps to run:
 
-docker-compose up -d
-dotnet restore
-dotnet ef database update
-dotnet run
+- docker-compose up -d
+- dotnet restore
+- dotnet ef database update
+- dotnet run
